@@ -1,3 +1,4 @@
+from decimal import Decimal
 
 # input options
 
@@ -17,4 +18,12 @@ print (type(value))
 num = input('Enter any number : ')
 print ('The variable num is ' + num)
 print (type(num))
+
+
+dec = Decimal(input("please enter the decimal value "))
+print ('The variable dec is ' , dec)
+print (type(dec))
+
+a,b=input("a"),input("b")
+print("intialized a",a,"intialized b",b,"at once")
 

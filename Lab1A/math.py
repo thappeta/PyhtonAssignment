@@ -1,19 +1,33 @@
-x = 88
+i = 88
 y = 2
+x=10
 
-print ("x y values are: ", x, y)
 
+#BODMAS Bracket OderOfPower Divison Multiplication Addition Subtraction
+
+result1=i*x+y-(x-y)
+print("BODMAS result1 ",result1)
+
+result2=i**x+y-(x-y)
+print("BODMAS result2 ",result2)
+
+result=i*x+y-(x-y)
+print("BODMAS result1 ",result)
+print ("i y values are: ", i, y)
+print("new varibale i",i)
 #math
-print("add", x + y)
-print("subtract", x - y)
-print("multiply", x * y)
-print("divide", x / y)
-
+print("add", i + y+i)
+print("subtract", i - (y+i))
+print("multiply",(i+i) * y)
+print("divide", (i/y)*i)
 #quotient
-print("quotient x devided by y", x // y)
-
+print("quotient i devided by y", i // y)
+print("quotient i devided by y", i // y)
 #modulus
-print("modulus x devided by y", x % y)
+print("modulus i devided by y", i+i % y)
+print("quotient i devided by y", i+i // y)
+print("eiponentiation operator ",i**i)
+print("eiponentiation operator ",y*i)
+print("floor division ",i//y)
 
-print("exponentiation operator ",x**y)
-print("floor division ",x//y)
+
